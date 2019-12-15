@@ -1,0 +1,105 @@
+---
+layout:     post
+title:      Facilities and Equipment 
+author:     Shenxiu Wu
+tags: 		sensors
+subtitle:  	Some Short Description of Post
+category:  sensors
+---
+<!-- Start Writing Below in Markdown -->
+
+
+
+
+<p style="text-indent:2em"><font face="Arial" color = "black" size="4" style="line-height: 1.1">The CCNY Biomechatronics Laboratory is the lab established by PI Su. It is approximately 1500 sq. ft. suite located on the seventh floor of the Marshak Science Building on The City College of New York’s campus in Manhattan. It includes 3 office rooms, 1 workspace, and 1 experimental space. It is a facility for biomechanics and wearable robotics research. The lab has been instrumented with a heavy-duty treadmill, mobile motion capture system, mobile insole sensors, and state of the art 3D printers. Several exoskeleton prototypes have been developed for research on rehabilitation, mobility assistance, hand manipulation, and human augmentation, etc.</font></p>
+<br>
+<div align="center"><img width="900" height="400" src="/images/facility/1.jpg"></div>
+<br>
+<p><font face="Arial" color = "black" size="4" style="line-height: 1.1">
+Computer
+<br>
+6 DELL desktops; 3 XPS DELL laptops, 2 Lenovo Thinkpad laptops.
+<br>
+Offices
+3 Offices are available in the seventh floor of the Marshak Building.
+<br>
+EQUIPMENT AVAILABLE:
+<br>
+The following equipment is available for use in the project.
+<br>
+<div align="center"><img width="700" height="400" src="/images/facility/2.jpg"></div>
+<br>
+<br>
+Prototyping Workshop
+<br>
+Full set of hardware instruments including CNC milling machine, advanced printing machine, laser cutting machine, and advanced circuit board prototyping machine. It can fully support the pneumatic and hydraulic actuator and inflatable exoskeleton manufacturing and testing, customized wearable fiberglass and Silica gel manufacture platform.
+<br><br>
+Advanced 3D Printers
+<br>
+One Makerbot 3D printer, one Formlabs 3D Printer, one Marforged 3D printer, can print ABS/PLA/Resin/Nylon/Onyx/Carbon Fiber/Kevlar.
+<br><br>
+Wearable Cable-Drive Exoskeletons
+<br>
+Four modular customized soft lower-limb exoskeletons for the back, hip, knee and ankle joints.
+<br><br>
+Hardware Electronic Platform
+<br>
+Full set of hardware electronic develop the platform, the equipment is including but not limited to, power supply, oscilloscope, signal generator, multimeter, soldering machine, heat gun, Gauss meter, and thermal imager.
+<br><br>
+Offboard Exoskeleton Test Platform
+<br>
+The platform mainly includes mechanical cable drive actuator platform, electronic sensors, I/O and communication board, and Simulink Desktop Real-Time based real-time control system.
+<br><br>
+Motion Capture System
+<br>
+One camera-based motion capture system (Qualisys, Inc.) includes 8 cameras, one wearable sensor-based motion capture system (Noitom, Inc.). The systems can be used for human biomechanical analysis and motion tracking.
+<br><br>
+Metabolic Measurement Device
+<br>
+A portable lightweight human walking metabolic estimation equipment (Goxlabs, Inc.)
+<br><br>
+Wireless Inertial Measurement Units (IMU)
+<br>
+A set of customized wireless IMU system includes 8 measurement nodes. 20 Individual IMU measurement nodes.
+<br><br>
+Foot Insole Sensors
+<br>
+One pair of Footswitches insole sensors (B&L Engineering, Inc.), two pair of pressure insole sensors (Podoon, Inc., Moticon, Inc.).
+<br><br>
+Electromyography (EMG) Measurement Units
+<br>
+Three customized wireless EMG measurement nodes, two commercial EMG measurement nodes (B&L engineering, Inc.).
+<br><br>
+Actuators
+<br>
+25 customized high torque density actuators with different specification, include high torque density motor, gear, motor driver, magnetic encoder and DSP 28335 based controller. 5 Maxon EC series flat motor (Maxon motor, Inc.), 3 commercial brushless high torque density motor (DJI, Inc., Tmotor, Inc.), 1 Yaskawa direct-drive motor, 30 DC/EC motor, driver and controller with different brands. 
+<br><br>
+Torque and Force Measurement Sensors
+<br>
+Two loadcell (0~50Nm, Futek, Inc.), four customized loadcell (0~50Nm, 0~100Nm) and one 6-axis loadcell (Sunrise, Inc.), 20 force sensors (0~5kg).
+<br><br>
+Treadmill
+<br>
+One F63 sole treadmill.
+<br><br>
+Mannequin
+<br>
+Three test mannequins include complete nursing skills mannequin (Keri), Professional Dress Form Female mannequin (Fashion Display) and model mannequin.
+<br><br>
+Virtual Reality System
+<br>
+VIVE VR system (HTC, Inc) with development software and SDK.
+<br><br>
+Education Kits
+<br>
+12 customized modular Advanced Mechatronics Education Kits, 2 Festo pneumatic muscle education kits.
+<br><br>
+Biomechanical Analysis Software
+<br>
+Three biomechanical analysis software include Anybody, Biomechanics of Bodies (B.O.B) and OpenSim.
+<br>
+<br>
+<!--
+Some of the information contained in this web site includes intellectual property covered by both issued and pending patent applications. It is intended solely for research, educational and scholarly purposes by not-for-profit research organizations. If you have interest in specific technologies for commercial applications, please contact us [here](/contact.html).
+-->
+
