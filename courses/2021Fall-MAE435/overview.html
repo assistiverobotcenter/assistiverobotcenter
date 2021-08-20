@@ -66,6 +66,709 @@ sections:
                     <div id="banner">
                         <h1>MAE435 Principles of Automatic Control</h1>
                     </div>
+
+                    <div id="content">
+                        <br>
+                        <p><strong>Pre-Requisite: </strong><a href="https://catalog.erau.edu/prescott/undergraduate-courses/ee/#"
+                            title="MAE315">MAE315</a>&nbsp;or <a href="https://catalog.erau.edu/prescott/undergraduate-courses/ee/#"
+                            title="MAE361">MAE361</a></p>
+                        <p><strong>Fall 2021 Schedule:</strong> MW 11:45 AM to 1:00 PM in EB2 01021</p>
+                
+                        <table width="639" border="0">
+                          <tbody>
+                            <tr>
+                              <th width="104" scope="row">Instructor</th>
+                              <td colspan="2">Dr. Hao Su</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">&nbsp;</th>
+                              <td width="116">Email:</td>
+                              <td width="405"><a href="mailto:hsu4@ncsu.edu">hsu4 at ncsu.edu</a></td>
+                            </tr>
+                            <tr>
+                              <th scope="row">&nbsp;</th>
+                              <td>Office:</td>
+                              <td>EB3 3282</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">&nbsp;</th>
+                              <td>Office hours:</td>
+                              <td>MW 10:30 AM to 11:30 AM</td>
+                            </tr>
+                
+                            <tr>
+                              <th scope="row">&nbsp;</th>
+                              <td colspan="2">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">Grader</th>
+                              <td colspan="2"><a href="mailto:POWELLN6@my.erau.edu">To be filled</a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <p><strong>Textbook:</strong> <a
+                            href="https://www.wiley.com/en-us/Control+Systems+Engineering%2C+8th+Edition-p-9781119634782">Modern Control
+                            Engineering</a>, by Katsuhiko Ogata. Any recent edition is acceptable, and 5th edition is recommended. </p>
+                        <p><strong>Slides:</strong> See below. </p>
+                        <br>
+                        <h2>Course Description:</h2>
+                        <p><em>Model development with applications to mechanical engineering systems. First and higher order system
+                            responses. Laplace transform, transfer functions and block diagrams. Frequency response and vibration.
+                            Introduction to feedback control. Concepts of PID control, tuning and compensation. Routh-Hurwitz stability.
+                            Control analysis and design using various graphical methods such as root locus, Bode diagram. </em></p>
+                        <br>
+                        <h2>Course Outcomes:</h2>
+                        <p>To provide students with practical design skills and tools for the synthesis of engineering control systems.
+                        </p>
+                        <!-- <ul>
+                          <li> Model and analyze electrical, mechanical, and electromechanical sys.</li>
+                          <li>Determine the time and frequency response of first, second, and higher order sys.</li>
+                          <li>Analyze closed-loop control sys for stability, sensitivity, disturbance rejection, steady-state    accuracy, transient response, and frequency response.</li>
+                          <li>Analyze and design closed-loop control sys using root-locus techniques.</li>
+                          <li>Analyze and design closed-loop control sys using frequency-response analysis.</li>
+                          <li>Model control systems using modern state-space methods.</li>
+                        </ul> -->
+                        <br>
+                        <h2>Grading Scheme:</h2>
+                        <table width="40%" border="1" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td bgcolor="#ffffff">Midterm exam (1)</td>
+                              <td bgcolor="#ffffff">25%</td>
+                            </tr>
+                            <tr>
+                              <td bgcolor="#e1e1e1">Homework<sup>1</sup> (5)</td>
+                              <td bgcolor="#e1e1e1">30%</td>
+                            </tr>
+                            <tr>
+                              <td bgcolor="#ffffff">Design projects (2)</td>
+                              <td bgcolor="#ffffff">20%</td>
+                            </tr>
+                            <tr>
+                              <td bgcolor="#e1e1e1">Final exam</td>
+                              <td bgcolor="#e1e1e1" id="test">25%</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <p><sup>1</sup>Two lowest scores dropped; <strong>late homework not accepted!</strong> Project report 2 = 2 HWs.
+                        </p>
+                        <br>
+                        <h2>Class Schedule:</h2>
+                        <table width="100%" border="1" cellpadding="0" cellspacing="0" id="schedule">
+                          <tbody>
+                            <tr>
+                              <th width="8%" scope="col">&nbsp;</th>
+                              <th width="16%" scope="col">Week</th>
+                              <th width="34%" scope="col">Monday</th>
+                              <th width="24%" scope="col">Wednesday</th>
+                              <th width="18%" scope="col">Optional text read</th>
+                            </tr>
+                            <tr>
+                              <td rowspan="7" align="center">Modeling</td>
+                
+                            </tr>
+                            <tr>
+                              <td>1. Aug. 16, 18</td>
+                              <td><a href="img/Paper/2021SR-Progress in robotics for combating infectious diseases.pdf">Course
+                                  Overview</a> </td>
+                              <td>Project: Simulink Introduction</td>
+                              <td>1.1-1.5</td>
+                            </tr>
+                            <tr>
+                              <td>2. Aug. 23, 25</td>
+                              <td><a href="img/Paper/2021SR-Progress in robotics for combating infectious diseases.pdf">Basics of
+                                  Laplace Transform and PID Control</a> </td>
+                              <td>Project: Simulation of Motor Model and PID Control</td>
+                              <td>-</td>
+                            </tr>
+                            <tr>
+                              <td>3. Aug. 30, Sep. 2</td>
+                              <td><a href="img/Paper/2021SR-Progress in robotics for combating infectious diseases.pdf">Laplace
+                                  Transform</a> </td>
+                              <td>Transfer Functions</td>
+                              <td>2.1, 2.2</td>
+                            </tr>
+                            <tr>
+                              <td>4. Sep. 8</td>
+                              <td>No class (Labor Day) </td>
+                              <td>Mechanical System Modeling</td>
+                              <td>3.1, 3.2</td>
+                            </tr>
+                            <tr>
+                              <td>5. Sep. 13, 15</td>
+                              <td><a href="img/Paper/2021SR-Progress in robotics for combating infectious diseases.pdf">Electrical
+                                  System Modeling</a> </td>
+                              <td>Electromechanical System Modeling</td>
+                              <td>3.4</td>
+                            </tr>
+                            <tr>
+                              <td>6. Sep. 20, 22</td>
+                              <td><a href="img/Paper/2021SR-Progress in robotics for combating infectious diseases.pdf">Control Block
+                                  Diagram and Signal Flow Graph</a> </td>
+                              <td>Control Block Diagram and Signal Flow Graph</td>
+                              <td>2.3-2.5</td>
+                            </tr>
+                
+                            <!-- <tr>
+                            <td>Thur, Jan 21</td>
+                            <td colspan="3" align="left" bgcolor="#FFFF00"><strong>NO LAB</strong></td>
+                          </tr> -->
+                
+                
+                            <tr>
+                              <td rowspan="4" align="center">2</td>
+                              <td>Mon, Jan 25</td>
+                              <td align="left">3. <a
+                                  href="https://erau.zoom.us/rec/play/9FTLxx12KlE5Hph7qblfB8D7Y7Rl73BXnnxNQzGGcknV_Vy0U7Oh4Rl5DLVddJM8ATRNr8TnqrzzzoPa.qg51T7jVjT6YLBax?autoplay=true&amp;startTime=1611607078000">The
+                                  transfer function</a> (<a href="lectures/lecture03_Transfer_Fn.pptx">ppt</a>, <a
+                                  href="lectures/lecture03_Transfer_Fn.pdf">pdf</a>)</td>
+                              <td align="left">&nbsp;</td>
+                              <td align="left">Chap 2.3</td>
+                            </tr>
+                            <tr>
+                              <td>Wed, Jan 27</td>
+                              <td>4. Modeling <a
+                                  href="https://erau.zoom.us/rec/play/WHHP5CEZ6i4Vz6pW-DD8zO7Iuqk86n-jUrmXsWDtBi6LDiKhJnqWD1YKNdXez53gIY9vAVBqGOu8mEKq.86VsTrqG-kpWy20T?autoplay=true&amp;startTime=1611766681000">electrical
+                                </a>systems (<a href="lectures/lecture04_Modeling_Elec.pptx">ppt</a>, <a
+                                  href="lectures/lecture04_Modeling_Elec.pdf">pdf</a>)</td>
+                              <td>&nbsp;</td>
+                              <td>Chap 2.5</td>
+                            </tr>
+                            <tr>
+                              <td>Thur, Jan 28</td>
+                              <td colspan="3" align="left" bgcolor="#FFFF00"><a
+                                  href="http://mercury.pr.erau.edu/~bruders/teaching/EE402/ee402.html">Lab 1</a>: Control Systems
+                                Modeling &amp; Analysis w/ MATLAB</td>
+                            </tr>
+                            <tr>
+                              <td>Fri, Jan 29</td>
+                              <td>5. <a
+                                  href="https://erau.zoom.us/rec/play/IscuqgR3UoFGXx31EAfLskcmSzd10aLxANcn6jonA7fWR220fWXTvMvbj0a217y8VNOMcDImQ6r_m0kf.7v0SekF0SnyWeNlK?autoplay=true&amp;startTime=1611939402000">Modeling
+                                  translational mechanical systems</a> (<a href="lectures/lecture05_Modeling_Mech_Trans.pptx">ppt</a>,
+                                <a href="lectures/lecture05_Modeling_Mech_Trans.pdf">pdf</a>)
+                              </td>
+                              <td><a href="Matlab_Code/lecture5/">MATLAB Code</a><br>
+                                <a href="https://ernie.erau.edu/">Hwk_2</a>
+                              </td>
+                              <td>Chap 2.5</td>
+                            </tr>
+                            <tr>
+                              <td rowspan="4" align="center">3</td>
+                              <td>Mon, Feb 1</td>
+                              <td align="left">6. Modeling <a
+                                  href="https://erau.zoom.us/rec/play/IrKlNce2FBHH0Hnyyu18h97kKUI50X8Of4qJLFnh7KdpE2A168NmxqrfmxbSbcRQtKHEWYtY_TyX4cJ4.BnTX_mfVcKCH0qEW?autoplay=true&amp;startTime=1612198910000">rotational
+                                  mechanical</a> systems (<a href="lectures/lecture06_Modeling_Mech_Rot.pptx">ppt</a>, <a
+                                  href="lectures/lecture06_Modeling_Mech_Rot.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture6/">MATLAB Code</a></td>
+                              <td>Chap 2.6</td>
+                            </tr>
+                            <tr>
+                              <td>Wed, Feb 3</td>
+                              <td>7. Modeling <a
+                                  href="https://erau.zoom.us/rec/play/JumQ8dhd-RE1FyEa2GGyYNZPwKk17dWvol8XnrcI4iu8mTReesMt7gXqSxmGzpHN3i8ubDyB-xSMIF7C.s67gyhXix4o5OVWV?autoplay=true&amp;startTime=1612371593000">electromechanical</a>
+                                systems (<a href="lectures/lecture07_DC_motor.pptx">ppt</a>, <a
+                                  href="lectures/lecture07_DC_motor.pdf">pdf</a>)</td>
+                              <td>&nbsp;</td>
+                              <td>Chap 2.8</td>
+                            </tr>
+                            <tr>
+                              <td>Thur, Feb 4</td>
+                              <td colspan="3" bgcolor="#FFFF00"><a
+                                  href="http://mercury.pr.erau.edu/~bruders/teaching/EE402/ee402.html">Lab 2</a>: Introduction to the
+                                Quanser QUBE-Servo</td>
+                            </tr>
+                            <tr>
+                              <td>Fri, Feb 5</td>
+                              <td>8. <a
+                                  href="https://erau.zoom.us/rec/play/MPCRJbS-qdRKb-XwCDBKYNys9ODjTeBtJJRYMlRwxpASYE7FqMqwpdFRY2hM1mn2BSt3kpOWEZuNzjzk.zDV7ZPgM7iEX1KXr?autoplay=true&amp;startTime=1612544351000">Linearization</a>
+                                (<a href="lectures/lecture08_lin_ex.pptx">ppt</a>, <a href="lectures/lecture08_lin_ex.pdf">pdf</a>)</td>
+                              <td><a href="https://ernie.erau.edu/">Hwk_3</a><br>
+                                <a href="Matlab_Code/lecture8/">MATLABCode</a>
+                              </td>
+                              <td>Chap 2.10- 2.11</td>
+                            </tr>
+                            <tr>
+                              <td rowspan="4" align="center">4</td>
+                              <td>Mon, Feb 8</td>
+                              <td>9. <a
+                                  href="https://erau.zoom.us/rec/play/D16V0To2MJCXPx-xl-MijukbqcuT7t5lG1tWZKwjxYmBujZkZNF1GzxNyCROm5Ph-62zatOAp-bjdvph.gxqMSO3T1q6BRwca?autoplay=true&amp;startTime=1612803540000">Poles,
+                                  zeros, and 1<sup>st</sup> order systems</a> (<a
+                                  href="lectures/lecture09_poles_and_zeros.pptx">ppt</a>,
+                                <a href="lectures/lecture09_poles_and_zeros.pdf">pdf</a>)
+                              </td>
+                              <td><a href="Matlab_Code/lecture9/">MATLAB Code</a></td>
+                              <td>Chap 4.1 - 4.3</td>
+                            </tr>
+                            <tr>
+                              <td>Wed, Feb 10</td>
+                              <td>10. <a
+                                  href="https://erau.zoom.us/rec/play/zo8y-jr4vgiYyVv2SZIY8jd6vRVbi6inHkGIE5YU7dGN5gVpDq5EXOMmG6DvVCcx0V2wr3iwS2tQYpCy.OCiTwN6-HJca0rmF?autoplay=true&amp;startTime=1612976242000">2<sup>nd</sup>
+                                  order systems</a> (<a href="lectures/lecture10_2nd_order_sys.pptx">ppt</a>, <a
+                                  href="lectures/lecture10_2nd_order_sys.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture10/">MATLAB Code</a></td>
+                              <td>Chap 4.4 - 4.5</td>
+                            </tr>
+                            <tr>
+                              <td>Thur, Feb 11</td>
+                              <td colspan="3" align="left" bgcolor="#FFFF00"><a
+                                  href="http://mercury.pr.erau.edu/~bruders/teaching/EE402/ee402.html">Lab 3</a>: Differentiating
+                                Real-Time Signals</td>
+                            </tr>
+                            <tr>
+                              <td>Fri, Feb 12</td>
+                              <td>11. <a
+                                  href="https://erau.zoom.us/rec/play/ZN5aqcF8uHU5_mluI9X2uxyBgC68Zd8VxcKLkwFDnfJvNNkV_U2NRUMgklfFR3TUGUiXNiyxwLzPXW3s.-2ze7-v1PhqfGGsG?autoplay=true&amp;startTime=1613149342000">Underdamped
+                                  2<sup>nd</sup> order systems</a> (<a href="lectures/lecture11_Time_Resp_Specs.pptx">ppt</a>, <a
+                                  href="lectures/lecture11_Time_Resp_Specs.pdf">pdf</a>)</td>
+                              <td><a href="https://ernie.erau.edu/">Hwk_4</a></td>
+                              <td>Chap 4.6</td>
+                            </tr>
+                            <tr>
+                              <td rowspan="4" align="center">5</td>
+                              <td>Mon, Feb 15</td>
+                              <td>12. <a
+                                  href="https://erau.zoom.us/rec/play/WA1zkEO2NXktdqJBJL7ubeO-oFr7TsdGMyBgdBXs1aBfHf_ywfav6e95SoJilrYxv2ssSitQ83yhpfoY.1oq6mXoO_xB6BrM9?autoplay=true&amp;startTime=1613408280000">Higher
+                                  order systems</a> (<a href="lectures/lecture12_Higher order systems.pptx">ppt</a>, <a
+                                  href="lectures/lecture12_Higher order systems.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture12/">MATLAB Code</a></td>
+                              <td>Chap 4.7 - 4.8</td>
+                            </tr>
+                            <tr>
+                              <td>Wed, Feb 17</td>
+                              <td align="left">13. <a
+                                  href="https://erau.zoom.us/rec/play/XnKYKGOY4Fhdq2Sxbq7iyYyRn1hIG38qhqV0YZwRIhckAQz48xLII5iWwhSjUxhDWjX6J0NFI--oKyvN.V4XjtrlKHeynPd-I?autoplay=true&amp;startTime=1613581125000">Block
+                                  diagrams</a> (<a href="lectures/lecture13_Block_Diagrams.pptx">ppt</a>, <a
+                                  href="lectures/lecture13_Block_Diagrams.pdf">pdf</a>)</td>
+                              <td align="left"><a href="Matlab_Code/lecture13/">MATLAB Code</a></td>
+                              <td align="left">Chap 5.1 - 5.3</td>
+                            </tr>
+                            <tr>
+                              <td>Thur, Feb 18</td>
+                              <td colspan="3" align="left" bgcolor="#FFFF00"><a
+                                  href="http://mercury.pr.erau.edu/~bruders/teaching/EE402/ee402.html">Lab 4</a>: DC Motor Modeling and
+                                Step Response<a href="http://mercury.pr.erau.edu/~bruders/teaching/EE402/lab_3/"></a></td>
+                            </tr>
+                            <tr>
+                              <td>Fri, Feb 19</td>
+                              <td align="left">14. <a
+                                  href="https://erau.zoom.us/rec/play/mYE4yB9X1l-u8qCOdQNUzoU7G5cM7Wuerv2QrHOxKNU1A8qHTI2krg68N21XTTtYFarClWTDY8WWXXA.f5Oyww7Fffmqdg-Q?autoplay=true&amp;startTime=1613754482000">More
+                                  block diags and intro to stability</a> (<a href="lectures/lecture14_Intro_to_Stability.pptx">ppt</a>,
+                                <a href="lectures/lecture14_Intro_to_Stability.pdf">pdf</a>)
+                              </td>
+                              <td align="left"><a href="Matlab_Code/lecture14/">MATLAB Code</a></td>
+                              <td align="left">Chap 5.1 - 5.3</td>
+                            </tr>
+                            <tr>
+                              <td rowspan="4" align="center">6</td>
+                              <td>Mon, Feb 22</td>
+                              <td>15. <a
+                                  href="https://erau.zoom.us/rec/play/vGW6R_BFsqSLe2vRmALLDaajjfGu6m7DMKA6WCtKk1lFME9ExhuZFoudniAoxmeF6vbE2sHNhGiyfYPn.23YUqKXzVCBWVpQF?autoplay=true&amp;startTime=1614013126000">Routh-Hurwitz
+                                  Stability</a> (<a href="lectures/lecture15_Routh_Hurwitz.pptx">ppt</a>, <a
+                                  href="lectures/lecture15_Routh_Hurwitz.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture15/">MATLAB Code</a><a href="homework/assignments.html"></a></td>
+                              <td>Chap 6.1 - 6.2</td>
+                            </tr>
+                            <tr>
+                              <td>Wed, Feb 24</td>
+                              <td>16. <a
+                                  href="https://erau.zoom.us/rec/play/4JpREY_Ac_X12rKH0dHHZ8ksy9XhzWQbuj4j9DMmOuqNE82vAusjSzEXoMvMmg4QCXe-bWbFH9jwqxvb._oifhd1RBNX6U3re?autoplay=true&amp;startTime=1614185967000">More
+                                  on Routh-Hurwitz</a> (<a href="lectures/lecture16_Routh_Hurwitz2.pptx">ppt</a>, <a
+                                  href="lectures/lecture16_Routh_Hurwitz2.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture16/">MATLAB Code</a></td>
+                              <td>Chap 6.3 - 6.4</td>
+                            </tr>
+                            <tr>
+                              <td>Thur, Feb 25</td>
+                              <td colspan="3" align="center" bgcolor="#FF99FF"><strong>Mid-Term Exam #1 in KEC 117: 10:30 - 11:50 am
+                                  &amp; 1:25 - 2:45 pm</strong></td>
+                            </tr>
+                            <tr>
+                              <td>Fri, Feb 26</td>
+                              <td>Review of Mid-Term Exam #1</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td rowspan="4" align="center">7</td>
+                              <td>Mon, March 1</td>
+                              <td>17. <a
+                                  href="https://erau.zoom.us/rec/play/lbMchtzmYGptekDiAovwotsVxzPEPz6GUfcVyFux27h4tuzWsw5g6EH_wKUIzIYFYcKkU6JLsPRhC_nf.UC2cYpzb-SnuliRM?autoplay=true&amp;startTime=1614617932000">Steady-State
+                                  errors</a> (<a href="lectures/lecture17_Steady_State_errors.pptx">ppt</a>, <a
+                                  href="lectures/lecture17_Steady_State_errors.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture17/">MATLAB Code</a><a href="homework/assignments.html"></a></td>
+                              <td>Chap 7.1 - 7.2</td>
+                            </tr>
+                            <tr>
+                              <td>Wed, March 3</td>
+                              <td>18. <a
+                                  href="https://erau.zoom.us/rec/play/gFLA78DXXVIYBn5kmZ8NRUMXrYH1KROGa-2J4wGoIPNvqTYFtN2dnPlm3v8DCxxPvxfAJigaJj57TpIn.ch2t2ge01t7pZ1le">System
+                                  type</a> (<a href="lectures/lecture18_Sysyem_Type.pptx">ppt</a>, <a
+                                  href="lectures/lecture18_Sysyem_Type.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture18/">MATLAB Code</a><a href="homework/assignments.html"> </a></td>
+                              <td>Chap 7.3 - 7.4</td>
+                            </tr>
+                            <tr>
+                              <td>Thur, March 4</td>
+                              <td colspan="3" bgcolor="#FFFF00"><a
+                                  href="http://mercury.pr.erau.edu/~bruders/teaching/EE402/ee402.html">Lab 5</a>: Second Order System
+                                Modeling</td>
+                            </tr>
+                            <tr>
+                              <td>Fri, March 5</td>
+                              <td>19. <a
+                                  href="https://erau.zoom.us/rec/play/FGsSrZFGPzjqNBAAa4DhJk_6aXFVn1dgZlOPSsebsBo11BsdHNG2A0b4VODL_RUZEKRNocvYf4ACyeYC.W4zh2XeGKyFKW2I6">More
+                                  on SS-errors</a> (<a href="lectures/lecture19_More_on_SS_Errors.pptx">ppt</a>, <a
+                                  href="lectures/lecture19_More_on_SS_Errors.pdf">pdf</a>)</td>
+                              <td><a href="https://ernie.erau.edu/">Hwk_6<br>
+                                </a><a href="Matlab_Code/lecture19/">MATLAB Code</a><a href="homework/assignments.html"></a><a
+                                  href="https://ernie.erau.edu/"> </a></td>
+                              <td>Chap 7.5 - 7.6</td>
+                            </tr>
+                            <tr>
+                              <td rowspan="4" align="center">8</td>
+                              <td>Mon, March 8</td>
+                              <td>20. <a
+                                  href="https://erau.zoom.us/rec/play/OMV5vdi9MB-sZjxsoZ2um7xwKnaUUCNQAVCQOe5cjaNUDGYrulvHwNDX8Fw7-DW_fduOpptC-W1nsV5w.JdCvuEo7D2jQHCGl?autoplay=true&amp;startTime=1615222915000">Sensitivity</a>
+                                (<a href="lectures/lecture20_Param_Sensitivity.pptx">ppt</a>, <a
+                                  href="lectures/lecture20_Param_Sensitivity.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture20/">MATLAB Code</a></td>
+                              <td> Chap 7.7 </td>
+                            </tr>
+                            <tr>
+                              <td>Wed, March 10</td>
+                              <td align="left">Lab 10 Discussion (<a href="lectures/Lab_10_Discussion.pptx">ppt</a>, <a
+                                  href="lectures/Lab_10_Discussion.pdf">pdf</a>)</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td>Thur, March 11</td>
+                              <td colspan="3" bgcolor="#FFFF00"><a
+                                  href="http://mercury.pr.erau.edu/~bruders/teaching/EE402/ee402.html">Lab 6</a>: Steady-State Error
+                                Analysis</td>
+                            </tr>
+                            <tr>
+                              <td>Fri, March 12</td>
+                              <td align="left">21. <a
+                                  href="https://erau.zoom.us/rec/play/djn2swXrwx6XMRD0rbd0Cer3t-uHFFEozNadSwzF2LDWMx-gnjE-DkI5t7G6VnXeHM1B0Ugy_uIhK4vz.o3HIe3durVt9342k?autoplay=true&amp;startTime=1615568301000">Root
+                                  locus - Part 1</a> (<a href="lectures/lecture21_Root_Locus1.pptx">ppt</a>, <a
+                                  href="lectures/lecture21_Root_Locus1.pdf">pdf</a>)</td>
+                              <td><a href="https://ernie.erau.edu/">Hwk_7</a><br>
+                                <a href="Matlab_Code/lecture21/">MATLAB Code</a>
+                              </td>
+                              <td>Chap 8.1 - 8.3</td>
+                            </tr>
+                            <tr>
+                              <td rowspan="4" align="center">9</td>
+                              <td>Mon, March 15</td>
+                              <td align="left">22. <a
+                                  href="https://erau.zoom.us/rec/play/d92UTPoZ-p6A3Tb3ECXXk7Yv5WMg0rREAoEFi72BzIcfARDHcyA6stm08yY6cQ0-idq24WAfoxd2h_15.fg3XV33Q6Nu4LOqg?autoplay=true&amp;startTime=1615827707000">Root
+                                  locus - Part 2</a> (<a href="lectures/lecture22_Root_Locus2.pptx">ppt</a>, <a
+                                  href="lectures/lecture22_Root_Locus2.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture22/">MATLAB Code</a></td>
+                              <td>Chap 8.4 - 8.5</td>
+                            </tr>
+                            <tr>
+                              <td>Wed, March 17</td>
+                              <td align="left">23. <a
+                                  href="https://erau.zoom.us/rec/play/nz8D3uUys4mViRYK-OfzBdqyiek5-FRtygbp0KikUaXOupg9FYmmCgxVCgjqnLSdXW6lefSzF8N2M2pB.gF_mh1J_Q5zehuJX?autoplay=true&amp;startTime=1616000451000">Root
+                                  locus - Part 3</a> (<a href="lectures/lecture23_Root_Locus3.pptx">ppt</a>, <a
+                                  href="lectures/lecture23_Root_Locus3.pdf">pdf</a>)</td>
+                              <td>&nbsp;</td>
+                              <td>Chap 8.6</td>
+                            </tr>
+                            <tr>
+                              <td>Thur, March 18</td>
+                              <td colspan="3" align="left" bgcolor="#FFFF00"><a
+                                  href="http://mercury.pr.erau.edu/~bruders/teaching/EE402/ee402.html">Lab 7</a>: Root Locus</td>
+                            </tr>
+                            <tr>
+                              <td>Fri, March 19</td>
+                              <td>24. <a
+                                  href="https://erau.zoom.us/rec/play/d70Wjg23mvqVxwsS6ukLVtKUvXp73hahHQqtPIk085XjT0KNVjcechyP46pQkPgEO2rMOBO634bPVq5E.n0wNj8_rsvAXk7VE?autoplay=true&amp;startTime=1616173057000">Design
+                                  via Root locus - Part 1</a> (<a href="lectures/lecture24_Design_via_RL.pptx">ppt</a>, <a
+                                  href="lectures/lecture24_Design_via_RL.pdf">pdf</a>)</td>
+                              <td><a href="https://ernie.erau.edu/">Hwk_8</a><br>
+                                <a href="Matlab_Code/lecture24/">MATLAB Code</a>
+                              </td>
+                              <td>Chap 9.1 - 9.2</td>
+                            </tr>
+                            <tr>
+                              <td rowspan="4" align="center">10</td>
+                              <td>Mon, March 22 </td>
+                              <td>25. <a
+                                  href="https://erau.zoom.us/rec/play/Uhy0ByLoxQSlGd7EnRPqPf4IIhc8O7t4trCWW3Bn0DkAOLhmSskLKE3hJE_PuHK76_l0scpBXXXvKsX7.LIYhgk-UxJu6kkvK?autoplay=true&amp;startTime=1616432316000">Design
+                                  via Root locus - Part 2</a> (<a href="lectures/lecture25_Design_via_RL2.pptx">ppt</a>, <a
+                                  href="lectures/lecture25_Design_via_RL2.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture25/">MATLAB Code</a></td>
+                              <td>Chap 9.3 - 9.4</td>
+                            </tr>
+                            <tr>
+                              <td>Wed, March 24</td>
+                              <td>26. <a
+                                  href="https://erau.zoom.us/rec/play/BGuoCIqBI7h3GRr_u-SmO-V7_WPWbSq47vkDcKvs3Q4qe8V2VHn_nJ75IOQaftS4r9K1uLa7ASnthEHw.EGBimGNNZUkby9pU?autoplay=true&amp;startTime=1616605021000">Design
+                                  via Root locus - Part 3</a> (<a href="lectures/lecture26_Design_via_RL3.pptx">ppt</a>, <a
+                                  href="lectures/lecture26_Design_via_RL3.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture26/">MATLAB Code</a></td>
+                              <td>Chap 9.5 - 9.6</td>
+                            </tr>
+                            <tr>
+                              <td>Thur, March 25</td>
+                              <td colspan="3" align="center" bgcolor="#FF99FF"><strong>Mid-Term Exam #2 in KEC 117: 10:30 - 11:50 am
+                                  &amp; 1:25 - 2:45 pm</strong></td>
+                            </tr>
+                            <tr>
+                              <td>Fri, March 26</td>
+                              <td>Review of Mid-Term Exam #2</td>
+                              <td>&nbsp;</td>
+                              <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td rowspan="4" align="center">11</td>
+                              <td>Mon, March 29</td>
+                              <td>27. <a
+                                  href="https://erau.zoom.us/rec/play/l9_l9YyPV4IRb_9J-phaItmbK_cPsEedfxt43ueKcES1cvMHydFzGzWENJIhJgDSzE3pHfaqJ4FfqdHS.Om1ufxSOYx4R3hL4?autoplay=true&amp;startTime=1617037116000">Frequency
+                                  response</a> (<a href="lectures/lecture27_Frequency_Resp.pptx">ppt</a>, <a
+                                  href="lectures/lecture27_Frequency_Resp.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture27/">MATLAB Code</a></td>
+                              <td>Chap 10.1</td>
+                            </tr>
+                            <tr>
+                              <td>Wed, March 31</td>
+                              <td>28. <a
+                                  href="https://erau.zoom.us/rec/play/EpWGB69wB1HJQanocvblUrLHxnOyify7eJBYpmLDSKUgrGUZ2Co_R9HQdXpmMCqdPBLcDQpHyLGKSBcq.bQ4LmoJqcYY7fRBN?autoplay=true&amp;startTime=1617209954000">Bode
+                                  plots - Part 1</a> (<a href="lectures/lecture28_Bode_plots_Part1.pptx">ppt</a>, <a
+                                  href="lectures/lecture28_Bode_plots_Part1.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture28/">MATLAB Code</a>&lt;</td>
+                              <td>Chap 10.2</td>
+                            </tr>
+                            <tr>
+                              <td>Thur, April 1</td>
+                              <td colspan="3" bgcolor="#FFFF00"><a
+                                  href="http://mercury.pr.erau.edu/~bruders/teaching/EE402/ee402.html">Lab 8</a>: P, Pi, and PD Control
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Fri, April 2</td>
+                              <td>29. <a
+                                  href="https://erau.zoom.us/rec/play/wvvxDqefUGeOzl8WY-LLoELA47Rc9xJhQgOApMDA74Xz-9gaPQ03OTbhrd24YtLlbkDiAdqQDW5VfPGp.v1dTjh2yLqCJ19lp?autoplay=true&amp;startTime=1617382825000">Bode
+                                  plots - Part 2</a> (<a href="lectures/lecture29_Bode_plots_Part2.pptx">ppt</a>, <a
+                                  href="lectures/lecture29_Bode_plots_Part2.pdf">pdf</a>)</td>
+                              <td><a href="https://ernie.erau.edu/">Hwk_9</a><br>
+                                <a href="Matlab_Code/lecture29/">MATLAB Code</a>
+                              </td>
+                              <td>Chap 10.2</td>
+                            </tr>
+                            <tr>
+                              <td rowspan="4" align="center">12</td>
+                              <td>Mon, April 5</td>
+                              <td>30. <a
+                                  href="https://erau.zoom.us/rec/play/mG3jqwfzVu2DkGDuwnUeCkz1HRkaVqnBFCTOH78riv_QMIv3l6W2VCVe4Yi2w6vPXWT-CXbzExe3V8Hh.aONYhCxCuVF1lBMx?autoplay=true&amp;startTime=1617642016000">Gain
+                                  and phase margins</a> (<a href="lectures/lecture30_Stability_Margins.pptx">ppt</a>, <a
+                                  href="lectures/lecture30_Stability_Margins.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture30/">MATLAB Code</a></td>
+                              <td>Chap 10.7</td>
+                            </tr>
+                            <tr>
+                              <td>Wed, April 7</td>
+                              <td colspan="3" align="center" bgcolor="#00FF00"><strong>Reading / Study Day </strong></td>
+                            </tr>
+                            <tr>
+                              <td>Thur, April 8</td>
+                              <td colspan="3" bgcolor="#FFFF00">NO LAB</td>
+                            </tr>
+                            <tr>
+                              <td>Fri, April 9</td>
+                              <td>31. Closed/open-loop freq/transient response (<a href="lectures/lecture31_CL_Freq_Resp.pptx">ppt</a>,
+                                <a href="lectures/lecture31_CL_Freq_Resp.pdf">pdf</a>)
+                              </td>
+                              <td><a href="Matlab_Code/lecture31/">MATLAB Code</a></td>
+                              <td>Chap 10.8 - 10.9</td>
+                            </tr>
+                            <tr>
+                              <td rowspan="4" align="center">13</td>
+                              <td>Mon, April 12</td>
+                              <td>32. <a
+                                  href="https://erau.zoom.us/rec/play/2wE8wCPfxfREbEXquC1qZDZazNsxioES9Ozdz67YnZ8mW665qVje3FNGVVPnAf3MaXVNZKlkBsFRZkiO.tJwo2NUy2wdElxJf?autoplay=true&amp;startTime=1618246868000">Design
+                                  via freq response - Lag/Lead comp</a> (<a href="lectures/lecture32_Comp_in_Freq.pptx">ppt</a>, <a
+                                  href="lectures/lecture32_Comp_in_Freq.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture32/">MATLAB Code</a></td>
+                              <td>Chap 11.1 - 11.3</td>
+                            </tr>
+                            <tr>
+                              <td>Wed, April 14</td>
+                              <td>33. <a
+                                  href="https://erau.zoom.us/rec/play/VLOMCpNcbj5vxRVNcGCRb4QiPAvqTNkRcQMeYezife7xJARTbwqpS3Ya2yyQg9E_ENM_RkUlgmdzVsMc.hKI3IGTKjf-Jukxd?autoplay=true&amp;startTime=1618419652000">Design
+                                  via freq response - Lead Example</a> (<a href="lectures/lecture33_Lead_Comp_Design.pptx">ppt</a>, <a
+                                  href="lectures/lecture33_Lead_Comp_Design.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture33/">MATLAB Code<br>
+                                </a><a href="https://ernie.erau.edu/">Hwk_10</a></td>
+                              <td>Chap 11.4</td>
+                            </tr>
+                            <tr>
+                              <td>Thur, April 15</td>
+                              <td colspan="3" bgcolor="#FFFF00"><a
+                                  href="http://mercury.pr.erau.edu/~bruders/teaching/EE402/ee402.html">Lab 9:</a>&nbsp;Frequency
+                                Response Analysis</td>
+                            </tr>
+                            <tr>
+                              <td>Fri, April 16</td>
+                              <td>34. <a
+                                  href="https://erau.zoom.us/rec/play/MzIxVw2ugdaOGblhZHKW2yCqGz_-KmO5mrx2TcTkMY9mpi_HGV09GwzcK-KZeDQ8sPmlDQEMSsYSgig.LM93YjDMISpcySoi?autoplay=true&amp;startTime=1618592400000">Design
+                                  via freq response - PID</a> (<a href="lectures/lecture34_Design_via_Freq.pptx">ppt</a>, <a
+                                  href="lectures/lecture34_Design_via_Freq.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture34/">MATLAB Code</a></td>
+                              <td>Chap 11.5</td>
+                            </tr>
+                            <tr>
+                              <td rowspan="4" align="center">14</td>
+                              <td>Mon, April 19</td>
+                              <td>35. <a
+                                  href="https://erau.zoom.us/rec/play/d8_rZK0AZmlXfCbZHrGW6qtfHpOVdKaSv_uIpiOJYmqcgYPIiZBniIYUH3CZeJcVLTdMWKo7GcyedM9f.P4PkG4eqkyH-nBfw?autoplay=true&amp;startTime=1618851475000">Intro
+                                  to State-Space modeling</a> (<a href="lectures/lecture35_Intro_ss_modeling.pptx">ppt</a>, <a
+                                  href="lectures/lecture35_Intro_ss_modeling.pdf">pdf</a>)</td>
+                              <td><a href="homework/assignments.html"></a></td>
+                              <td>Chap 3.1 - 3.3</td>
+                            </tr>
+                            <tr>
+                              <td>Wed, April 21</td>
+                              <td>36. <a
+                                  href="https://erau.zoom.us/rec/play/mzpT-SdiRI4Z9bkkGZmOLzWNEBZ_VSpoiiJ7-PRIH7NK1DZnSAGAPDazUxuQyDBb3Icb4NO1mKh_Kvb9.1oUZECRI6kLb5VB7?autoplay=true&amp;startTime=1619024321000">State-Space
+                                  representation</a> (<a href="lectures/lecture36_alternative_ss_forms1.pptx">ppt</a>, <a
+                                  href="lectures/lecture36_alternative_ss_forms1.pdf">pdf</a>)</td>
+                              <td><a href="https://ernie.erau.edu/">Hwk_11</a></td>
+                              <td>Chap 3.4</td>
+                            </tr>
+                            <tr>
+                              <td>Thur, April 22</td>
+                              <td colspan="3" bgcolor="#FFFF00"><a
+                                  href="http://mercury.pr.erau.edu/~bruders/teaching/EE402/ee402.html">Lab 10:</a> Student Defined
+                                Control Experiment (formal lab report required)</td>
+                            </tr>
+                            <tr>
+                              <td>Fri, April 23</td>
+                              <td>37. <a
+                                  href="https://erau.zoom.us/rec/play/7El1cOrOiVV7ehrDUnud7C-hoAOx8S7dEMzSOjZuHreWkp51Yho6ajAPA-uo05OZg00V7WY_6ViwiHxm.lRKwhPMZzoNS2OgY?autoplay=true&amp;startTime=1619197094000">State-space
+                                  to Transfer fn</a> (<a href="lectures/lecture37_ss_2_TF.pptx">ppt</a>, <a
+                                  href="lectures/lecture37_ss_2_TF.pdf">pdf</a>)</td>
+                              <td><a href="Matlab_Code/lecture37/">MATLAB Code</a></td>
+                              <td>Chap 3.5 - 3.6</td>
+                            </tr>
+                            <tr>
+                              <td rowspan="4" align="center">15</td>
+                              <td>Mon, April 26</td>
+                              <td colspan="3">
+                                <p><a href="http://mercury.pr.erau.edu/~bruders/teaching/EE402/lab10/">Lab 10</a> presentations
+                                  (<strong>STEM 109</strong>) (<a
+                                    href="https://erau.zoom.us/rec/play/pMK5hJ8AVErPZIvxo7xL9cUY7xRySKkaZ2_F14eBF_yJNzYmJIvu47Jc6upc2bmGn3RC9zuxkBfSnpTa.yavYIDjiYw5RpyKj?autoplay=true&amp;startTime=1619456242000">video</a>)
+                                </p>
+                                <ul>
+                                  <li>10:00 - 10:10 am: <strong>Bondar, Georgiy</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Bondar_Georgiy_Lab10.pptx">Inverted Pendulum using PD
+                                      Control</a>"</li>
+                                  <li>10:10 - 10:20 am: <strong>Castillo, Emillo</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Castillo_Emilio_Lab10.pptx">RE-visit Lab 08 - PID
+                                      controller</a>"</li>
+                                  <li>10:20 - 10:30 am: <strong>Conte, Ian</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Conte_Ian_Lab10.pptx">Frequency Domain System ID of the
+                                      ECP Linear System</a>"</li>
+                                  <li>10:30 - 10:40 am: <strong>Esse, Samuel</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Esse_Sam_Lab10.pptx">PID controller to control angle of
+                                      QUBE</a>"</li>
+                                  <li>10:40 - 10:50 am: <strong>Fike, Thoma</strong>s, "<a
+                                      href="../EE402/lab10/student presentations/Fike_Thomas_Lab10.pptx">Frequency Response of ECP
+                                      Rotary Plant</a>"</li>
+                                </ul>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Wed, April 28</td>
+                              <td colspan="3"><a href="http://mercury.pr.erau.edu/~bruders/teaching/EE402/lab10/">Lab 10</a>
+                                presentations (<strong>STEM 109</strong>) (<a
+                                  href="https://erau.zoom.us/rec/play/cYdS606A_XFxOzcdTbZkor8O6FODD8e4uX5a5_KbilKGPTzb6JhmPAe0Nvow1EO8M2GtvnXj0zUNKl0._8vGbzv32EEAjf8T?autoplay=true&amp;startTime=1619629069000">video</a>)
+                                <ul>
+                                  <li>10:00 - 10:10 am: <strong>Christiansen, Jon</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Christiansen_Jon_Lab10.pptx">ECP Linear System
+                                      Control</a>"</li>
+                                  <li>10:10 - 10:20 am: <strong>Jefferson, Emmanuel</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Jefferson_Emmanuel_lab10 presentation.pptx">PID
+                                      controller for the Quanser Cube</a>"</li>
+                                  <li>10:20 - 10:30 am: <strong>Kearns, Lorenzo</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Kearns_Lorenzo_Lab10.pptx">Quanser QUBE laser pointer
+                                      control</a>"</li>
+                                  <li>10:30 - 10:40 am: <strong>LaFrankie, Alexander</strong>, "<a
+                                      href="../EE402/lab10/student presentations/LaFrankie_Alex_Lab10_presentation.pptx">PD Control of
+                                      ECP Linear Plant</a>"</li>
+                                  <li>10:40 - 10:50 am: <strong>Levoy, Tyler</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Levoy_Tyler_Lab10.pptx">PD controller for the ECP
+                                      rotary system</a>"</li>
+                                </ul>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Thur, April 29</td>
+                              <td colspan="3">
+                                <p><a href="http://mercury.pr.erau.edu/~bruders/teaching/EE402/lab10/">Lab 10</a> presentations
+                                  (<strong>KEC 122</strong>) </p>
+                                <ul>
+                                  <li>09:30 - 09:40 am: <strong>Gary, Matthew</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Gary_Matthew_Lab10.pptx">ECP linear system with the PD
+                                      controller</a>"</li>
+                                  <li>09:40 - 09:50 am: <strong>Gray, William</strong>, "<a
+                                      href="../EE402/lab10/student presentations/GrayWilliam_lab10.pptx">PID controller to control angle
+                                      of QUBE</a>"</li>
+                                  <li></li>
+                                  <li>10:00 - 10:10 am: <strong>Landon, Parker</strong>, "<a
+                                      href="../EE402/lab10/student presentations/LandonParker_Lab10.pptx">Inverted Pendulum using
+                                      State-Space</a>"</li>
+                                  <li>10:10 - 10:20 am: <strong>Madden, Savannah</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Madden_Savannah_Lab10.pptx">System Identification of
+                                      the ECP Linear System</a>"</li>
+                                  <li>10:20 - 10:30 am: <strong>Phaklides, Nicodemus</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Phaklides_Nicodemus_Lab10.pptx">Inverted Pendulum</a>"
+                                  </li>
+                                  <li>10:30 - 10:40 am: Serratos, Ashton, "Continuation of Lab 08 - PID Controller"</li>
+                                  <li>10:40 - 10:50 am: <strong>Taylor, Alexandria</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Taylor_Alexandria_Lab10.pptx">ECP Rotary System</a>"
+                                  </li>
+                                  <li></li>
+                                  <li>01:30 - 01:40 pm: <strong>McKelvey, Caeden</strong>, "<a
+                                      href="../EE402/lab10/student presentations/McKelvey_Caeden_Lab10.pdf">System ID of the ECP
+                                      linear</a>"</li>
+                                  <li>01:40 - 01:50 pm: <strong>Parmenter, Joshua</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Parmenter_Joshua_Lab10.pptx">Frequency Domain
+                                      Compensator Design for the QUBE</a>"</li>
+                                  <li></li>
+                                  <li>02:00 - 02:10 pm: <strong>Rocha, Katie</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Rocha_Katherine_Lab10.pptx">Inverted Pendulum: Pole
+                                      Placement</a>"</li>
+                                  <li>02:10 - 02:20 pm: <strong>Rodriguez, Nicolas</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Rodriguez_Nicolas_Lab10.pptx">ECP Linear System
+                                      Position Control</a>"</li>
+                                  <li>02:20 - 02:30 pm: Schuh, Jason, "Topic"</li>
+                                  <li>02:30 - 02:40 pm: <strong>Valencia, Denise</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Valencia_Denise_Lab10.pptx">ECP ROTARY System</a>"</li>
+                                  <li>02:40 - 02:50 pm: <strong>Weaver, Isaak</strong>, "<a
+                                      href="../EE402/lab10/student presentations/Weaver_Isaak_Lab10.pptx">Lab 8 using a PID
+                                      Controller</a>"</li>
+                                </ul>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>Fri, April 30</td>
+                              <td colspan="3" align="center" bgcolor="#00FF00"><strong>Reading / Study Day</strong></td>
+                            </tr>
+                            <tr>
+                              <td align="center">16</td>
+                              <td><strong>Thurs, May 6</strong></td>
+                              <td colspan="3" align="center" bgcolor="#FF99FF"><strong>Final Exam</strong><br>
+                                <strong>9</strong>:15 am to 12:15 pm in KEC 117 and KEC 122
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                
+                      </div>
                 </div>
             </div>
         </div>
